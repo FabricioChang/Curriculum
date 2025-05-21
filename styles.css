@@ -17,10 +17,24 @@ header {
     padding: 1rem 0;
 }
 
-header h1 {
+h1 {
     margin: 0;
     text-align: center;
     font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+#photo {
+    display: block;
+    margin: 0 auto;
+    width: 8vw;
+    height: auto;
+}
+
+.subtitle {
+    text-align: center;
+    color: rgb(151 156 165 /0.89);
+    text-transform: uppercase;
 }
 
 main {
@@ -28,7 +42,10 @@ main {
 }
 
 section {
-    margin-bottom: 1.5rem;
+    border: 0.2pt solid #cedddd;
+    margin: 4px 2px 8px 2px;
+    padding: 1.5% 0.8%;
+    margin-bottom: calc(1.2 * 1rem);
 }
 
 h2 {
@@ -37,14 +54,11 @@ h2 {
     padding-bottom: 0.5rem;
 }
 
-ul {
-    list-style-type: square;
-    padding-left: 1.5rem;
+nav > ul {
+    list-style: none;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: #333;
-    color: white;
+footer p {
+    text-align: right;
+    font-style: italic;
 }
