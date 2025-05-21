@@ -11,10 +11,15 @@ body {
     color: #333;
 }
 
-header {
+header{
     background: #007BFF;
     color: white;
+    text-align: center;
     padding: 1rem 0;
+}
+
+p, li{
+    font-family: "Amiko", sans-serif;
 }
 
 h1 {
@@ -22,6 +27,10 @@ h1 {
     text-align: center;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
+}
+
+h3{
+    font-family: "Ubuntu", sans-serif;
 }
 
 #photo {
