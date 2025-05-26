@@ -26,6 +26,8 @@
             <li><a href="#experiencia">Experiencia Laboral</a></li>
             <li><a href="#educacion">Educación</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#referencias">Referencias</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
@@ -79,7 +81,7 @@
                 <li>Blandas: Liderazgo, comunicación efectiva, trabajo en equipo.</li>
             </ul>
         </section>
-        <section>
+        <section id="proyectos">
             <h2 class="subtitle">Proyectos Destacados</h2>
             <article>
                 <h3>Análisis de Modelos de Suscripción (ESPOL)</h3>
@@ -90,10 +92,73 @@
                 <p>Creación de una aplicación web para la visualización y análisis de datos en tiempo real.</p>
             </article>
         </section>
+        <section id="referencias">
+            <h2>Referencias</h2>
+            <article>
+                <span>Nombre: Jose Salas</span>
+                <span>Relacion: Governance and quality COE Lead</span>
+                <span>Telefono: +593 99 802 2538</span>
+            </article>
+            <article>
+                <span>Nombre: M.Eng. Estefania Arias Torres</span>
+                <span>Relacion: Docente ESPOL</span>
+                <span>Telefono: +593 96 028 4063</span>
+            </article>
+        </section>
         <section id="contacto">
             <h2 class="subtitle">Contacto</h2>
             <p>Correo: fchang@espol.edu.ec</p>
             <p>Teléfono: +593 983 540 616</p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label for="motivo">Motivo de contacto:</label>
+                <select id="motivo" name="motivo" required>
+                    <option value="" disabled selected>Seleccione una opción</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="trabajo">Oferta de trabajo</option>
+                    <option value="otro">Otro</option>
+                </select>
+        
+                <fieldset>
+                    <legend>¿Ha revisado mi portafolio?</legend>
+                    <input type="radio" id="si" name="revisado" value="si" required>
+                    <label for="si">Sí</label>
+                    <input type="radio" id="no" name="revisado" value="no" required>
+                    <label for="no">No</label>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Área de interés:</legend>
+                    <input type="checkbox" id="frontend" name="area_interes" value="frontend">
+                    <label for="frontend">Frontend</label>
+                    <input type="checkbox" id="backend" name="area_interes" value="backend">
+                    <label for="backend">Backend</label>
+                    <input type="checkbox" id="ciencia_datos" name="area_interes" value="ciencia_datos">
+                    <label for="ciencia_datos">Ciencia de Datos</label>
+                </fieldset>
+        
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+                <button type="submit">Enviar</button>
+            </form>
+            <h3 style="text-align: center;">Mapa ESPOL - FIEC</h3>
+            <div style="width:100%;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1124.933955907104!2d-79.96810876807052!3d-2.144669486224697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1sen!2sec!4v1748274218721!5m2!1sen!2sec"
+                    width="100%" height="350" style="border:0; display:block;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <h3 style="text-align: center;">Video instructivo sobre la vida en la ESPOL</h3>
+            <div style="display: flex; justify-content: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/v6kEanzJhpg?si=edDrzyPyqSXQg72_"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </section>
     </main>
     <footer>
